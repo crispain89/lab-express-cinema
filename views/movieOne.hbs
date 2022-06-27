@@ -1,0 +1,16 @@
+<div class="peli">
+    <img src={{peli.image}}>
+    <div class="infoPeli">
+        <h2>{{peli.title}}</h2>
+        <h3>{{peli.direction}}</h3>
+        <h3>Stars</h3>
+        <ul>
+            {{#each peli.start}}
+            <li>{{this}}</li>
+            {{/each}}
+        </ul>
+        <span>{{peli.description}}</span>
+        
+    </div>
+
+</div>
